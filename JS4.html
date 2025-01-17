@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Form</title>
+  <link rel="stylesheet" href="JS4.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Register for Our Newsletter</h1>
+    <!-- نموذج تسجيل -->
+    <form id="registerForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name"
+       placeholder="Enter your name" >
+      <label for="email">Email:</label>
+      <input type="email" id="email" 
+      placeholder="Enter your email" >
+      <button id="submitButton" type="submit">Register</button>
+    </form>
+    <!-- صندوق التمرير -->
+    <div id="infoBox">
+      <p>Scroll to read our terms and conditions:</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+      <p>Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.</p>
+    </div>
+    <!-- رسالة النجاح -->
+    <div id="successMessage" hidden>
+      <p>Thank you for registering! 🎉</p>
+    </div>
+  </div>
+  <script src="JS4.js"></script>
+</body>
+</html>

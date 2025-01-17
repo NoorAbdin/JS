@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Login Screen</title>
+    <link rel="stylesheet" href="JS2.CSS">
+</head>
+<body>
+<div class="login-container">
+    <h1>Login Form</h1>
+    <form id="login-form">
+        <label>Username</label>
+        <input type="text" id="username" required placeholder="Enter your Name">
+
+        <label>Password</label>
+        <input type="password" id="password" required placeholder="Enter your Password">
+
+        <label>Gender</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+
+        <label>Specialty</label>
+        <select id="specialty">
+            <option value="cs">Computer Science</option>
+            <option value="se">Software Engineering</option>
+            <option value="it" >Information Technology</option>
+        </select>
+
+        <button type="submit">Login</button>
+    </form>
+    <p id="error-message" class="hidden"></p>
+</div>
+<script src="JS2.JS"></script>
+</body>
+</html>
